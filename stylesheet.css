@@ -1,0 +1,77 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: cornflowerblue;
+    font-family: 'STIX Two Math', open-sans;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    padding: 16px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    border-bottom: black;
+}
+
+li:hover {
+background-color: grey;
+font-family: 'STIX Two Math', open-sans;
+}
+
+.navlinks {
+    background-color: darkslateblue;
+    color: blanchedalmond;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.imagebanner {
+background-image: url("images/sea.gif");
+padding: 50px 0;
+}
+
+h2 {
+    text-align: center;
+    color: blanchedalmond;
+    background-color: darkslateblue;
+}
+
+.introduction {
+    text-align: center;
+    color: blanchedalmond;
+    font-size: 1.5rem;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+}
+
+.merch {
+    text-align: center;
+    color: blanchedalmond;
+    margin: 32px;
+}
+
+@media screen and (min-width: 700px) {
+    ul {
+        text-align: right;
+    }
+
+    li {
+        display: inline-block;
+        border-bottom: 0px;
+        border-left: 0px solid black;
+    }
+
+    .merch {
+        width: 33%;
+        display: inline-block;
+        vertical-align: top;
+    }
+}
